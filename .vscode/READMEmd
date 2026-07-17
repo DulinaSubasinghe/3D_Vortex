@@ -1,0 +1,35 @@
+# Nexus - Particle Physics Simulator
+
+## Overview
+A real-time 3D particle physics simulator with 5 interactive modes:
+- 💥 Explode - Click to burst particles outward
+- 🌀 Swirl - Drag to create galaxy-like swirls
+- ⚫ Black Hole - Hold to suck particles in
+- 🌍 Gravity - Click for gravitational pull
+- 🔥 Fire - Click to create rising flames
+
+## Tech Stack
+- React 18 + TypeScript
+- Three.js for 3D rendering
+- @react-three/fiber for React integration
+- @react-three/drei for helpers
+- @react-three/postprocessing for bloom effect
+
+## Architecture
+- Single file: `src/App.tsx` contains all logic
+- 10,000+ particles running at 60fps
+- GPU-accelerated using Three.js Points
+- Post-processing bloom for glow effect
+
+## Key Features
+- Real-time particle physics
+- Mouse interaction with 5 modes
+- FPS counter
+- Particle count control
+- Speed and size controls
+- Orbit controls for camera
+
+## Development
+```bash
+npm install
+npm run dev

@@ -1,0 +1,49 @@
+# Cursor AI Configuration for Nexus Project
+
+project:
+  name: "VORTEX - Particle Physics Simulator"
+  type: "React + TypeScript + Three.js"
+  description: "Interactive 3D particle physics simulator with 5 interaction modes"
+
+# AI Behavior Settings
+ai:
+  model: "claude-3.5-sonnet"
+  temperature: 0.7
+  max_tokens: 4000
+
+# Project Context
+context:
+  tech_stack:
+    - React 18
+    - TypeScript 5
+    - Three.js 0.158
+    - @react-three/fiber
+    - @react-three/drei
+    - @react-three/postprocessing
+    - Vite
+
+# Coding Standards
+standards:
+  language: "TypeScript"
+  styling: "Inline styles for simplicity"
+  component_structure: "Functional components with hooks"
+  state_management: "React useState hooks"
+  performance: "GPU-accelerated, 60fps target"
+
+# Instructions for AI
+instructions:
+  - "Always use TypeScript with proper types"
+  - "Keep components modular and reusable"
+  - "Use Three.js for all 3D rendering"
+  - "Optimize for 60fps performance"
+  - "Add comments for complex physics logic"
+
+# Project Structure
+structure:
+  src:
+    components:
+      Scene: "3D scene components"
+      UI: "UI overlay components"
+    hooks: "Custom React hooks"
+    utils: "Utility functions"
+    types: "TypeScript type definitions"
